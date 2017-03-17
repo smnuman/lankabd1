@@ -1,0 +1,257 @@
+2017-03-16 23:26:51 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: lankabd1)
+2017-03-16 23:26:51 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'lankabd1.spiders', 'FEED_URI': '20170316-232649_csv.csv', 'SPIDER_MODULES': ['lankabd1.spiders'], 'BOT_NAME': 'lankabd1', 'ROBOTSTXT_OBEY': True, 'FEED_FORMAT': 'csv', 'LOG_FILE': '.log', 'FEED_EXPORT_FIELDS': ['industry', 'stockID', 'ticker', 'name', 'link']}
+2017-03-16 23:26:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-03-16 23:26:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-16 23:26:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-16 23:26:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-03-16 23:26:52 [scrapy.core.engine] INFO: Spider opened
+2017-03-16 23:26:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-16 23:26:52 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-03-16 23:26:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/robots.txt> (referer: None)
+2017-03-16 23:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=7> (referer: None)
+2017-03-16 23:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=2> (referer: None)
+2017-03-16 23:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=5> (referer: None)
+2017-03-16 23:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=6> (referer: None)
+2017-03-16 23:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=8> (referer: None)
+2017-03-16 23:26:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=9> (referer: None)
+2017-03-16 23:26:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=10> (referer: None)
+2017-03-16 23:26:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=11> (referer: None)
+2017-03-16 23:26:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=12> (referer: None)
+2017-03-16 23:26:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=14> (referer: None)
+2017-03-16 23:26:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=13> (referer: None)
+2017-03-16 23:26:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/APEXTANRY/apex-tannery-limited/stock-price?stockId=156> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=7)
+2017-03-16 23:26:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/APEXTANRY/apex-tannery-limited/stock-price?stockId=156>
+{'industry': u'Tannery Industries',
+ 'name': u'Apex Tannery Limited',
+ 'stockID': u'156',
+ 'ticker': u'APEXTANRY'}
+2017-03-16 23:26:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=1> (referer: None)
+2017-03-16 23:26:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=4> (referer: None)
+2017-03-16 23:26:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3> (referer: None)
+2017-03-16 23:26:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=16> (referer: None)
+2017-03-16 23:26:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/ACI/aci-limited/stock-price?stockId=131> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=8)
+2017-03-16 23:26:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/ACI/aci-limited/stock-price?stockId=131>
+{'industry': u'Pharmaceuticals & Chemicals',
+ 'name': u'ACI Limited',
+ 'stockID': u'131',
+ 'ticker': u'ACI'}
+2017-03-16 23:26:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/UTTARABANK/uttara-bank-limited/stock-price?stockId=41> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=9)
+2017-03-16 23:26:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/ARAMITCEM/aramit-cement/stock-price?stockId=2> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=2)
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/UTTARABANK/uttara-bank-limited/stock-price?stockId=41>
+{'industry': u'Bank',
+ 'name': u'Uttara Bank Limited',
+ 'stockID': u'41',
+ 'ticker': u'UTTARABANK'}
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=15> (referer: None)
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/ARAMITCEM/aramit-cement/stock-price?stockId=2>
+{'industry': u'Cement',
+ 'name': u'Aramit Cement',
+ 'stockID': u'2',
+ 'ticker': u'ARAMITCEM '}
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=17> (referer: None)
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/VAMLBDMF1/vanguard-aml-bd-finance-mutual-fund-one/stock-price?stockId=641> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=10)
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/VAMLBDMF1/vanguard-aml-bd-finance-mutual-fund-one/stock-price?stockId=641>
+{'industry': u'Mutual Funds',
+ 'name': u'Vanguard AML BD Finance Mutual Fund One',
+ 'stockID': u'641',
+ 'ticker': u'VAMLBDMF1'}
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/ETL/evince-textiles-limited/stock-price?stockId=646> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=10)
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/TALLUSPIN/tallu-spinning-spinning-mills-limited/stock-price?stockId=185> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=6)
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/ETL/evince-textiles-limited/stock-price?stockId=646>
+{'industry': u'Textile',
+ 'name': u'Evince Textiles Limited',
+ 'stockID': u'646',
+ 'ticker': u'ETL'}
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/EMERALDOIL/emerald-oil-industries-limited/stock-price?stockId=604> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=4)
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/TALLUSPIN/tallu-spinning-spinning-mills-limited/stock-price?stockId=185>
+{'industry': u'Textile',
+ 'name': u'Tallu Spinning Spinning Mills Limited',
+ 'stockID': u'185',
+ 'ticker': u'TALLUSPIN'}
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/SQURPHARMA/square-pharmaceuticals-limited/stock-price?stockId=150> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=13)
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/EMERALDOIL/emerald-oil-industries-limited/stock-price?stockId=604>
+{'industry': u'Food & Allied',
+ 'name': u'Emerald Oil Industries Limited',
+ 'stockID': u'604',
+ 'ticker': u'EMERALDOIL'}
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/SQURPHARMA/square-pharmaceuticals-limited/stock-price?stockId=150>
+{'industry': u'Pharmaceuticals & Chemicals',
+ 'name': u'Square Pharmaceuticals Limited',
+ 'stockID': u'150',
+ 'ticker': u'SQURPHARMA'}
+2017-03-16 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/BDTHAI/bangladesh-thai-aluminium-limited/stock-price?stockId=48> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/BDTHAI/bangladesh-thai-aluminium-limited/stock-price?stockId=48>
+{'industry': u'Engineering',
+ 'name': u'Bangladesh Thai Aluminium Limited',
+ 'stockID': u'48',
+ 'ticker': u'BDTHAI'}
+2017-03-16 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/SINGERBD/singer-bangladesh-limited/stock-price?stockId=64> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=7)
+2017-03-16 23:26:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/SINGERBD/singer-bangladesh-limited/stock-price?stockId=64>
+{'industry': u'Engineering',
+ 'name': u'Singer Bangladesh Limited',
+ 'stockID': u'64',
+ 'ticker': u'SINGERBD'}
+2017-03-16 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/EASTLAND/eastland-insurance-company-limited/stock-price?stockId=198> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:26:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/EASTLAND/eastland-insurance-company-limited/stock-price?stockId=198>
+{'industry': u'Insurance',
+ 'name': u'Eastland Insurance Company Limited',
+ 'stockID': u'198',
+ 'ticker': u'EASTLAND '}
+2017-03-16 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/ZAHINTEX/zahintex-industries-limited/stock-price?stockId=273> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/BATASHOE/bata-shoe-limited/stock-price?stockId=157> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=14)
+2017-03-16 23:26:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/ZAHINTEX/zahintex-industries-limited/stock-price?stockId=273>
+{'industry': u'Textile',
+ 'name': u'Zahintex Industries Limited',
+ 'stockID': u'273',
+ 'ticker': u'ZAHINTEX'}
+2017-03-16 23:26:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/BATASHOE/bata-shoe-limited/stock-price?stockId=157>
+{'industry': u'Tannery Industries',
+ 'name': u'Bata Shoe Limited',
+ 'stockID': u'157',
+ 'ticker': u'BATASHOE'}
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/FASFIN/fas-finance-&-investment-limited/stock-price?stockId=69> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/FASFIN/fas-finance-&-investment-limited/stock-price?stockId=69>
+{'industry': u'Financial Institutions',
+ 'name': u'FAS Finance & Investment Limited',
+ 'stockID': u'69',
+ 'ticker': u'FASFIN'}
+2017-03-16 23:27:00 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-03-16 23:27:00 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/ZEALBANGLA/zeal-bangla-sugar-mills-limited/stock-price?stockId=100> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=1)
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/ZEALBANGLA/zeal-bangla-sugar-mills-limited/stock-price?stockId=100>
+{'industry': u'Food & Allied',
+ 'name': u'Zeal Bangla Sugar Mills Limited',
+ 'stockID': u'100',
+ 'ticker': u'ZEALBANGLA'}
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/RUPALIINS/rupali-insurance-company-limited/stock-price?stockId=225> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/PHENIXINS/phoenix-insurance-company-ltd./stock-price?stockId=213> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=9)
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/BAYLEASING/bay-leasing-&-investment-limited/stock-price?stockId=65> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/RUPALIINS/rupali-insurance-company-limited/stock-price?stockId=225>
+{'industry': u'Insurance',
+ 'name': u'Rupali Insurance Company Limited',
+ 'stockID': u'225',
+ 'ticker': u'RUPALIINS'}
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/PHENIXINS/phoenix-insurance-company-ltd./stock-price?stockId=213>
+{'industry': u'Insurance',
+ 'name': u'Phoenix Insurance Company Ltd.',
+ 'stockID': u'213',
+ 'ticker': u'PHENIXINS'}
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/BAYLEASING/bay-leasing-&-investment-limited/stock-price?stockId=65>
+{'industry': u'Financial Institutions',
+ 'name': u'Bay Leasing & Investment Limited',
+ 'stockID': u'65',
+ 'ticker': u'BAYLEASING'}
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/RNSPIN/r.n.-spinning-mills-limited/stock-price?stockId=179> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/RNSPIN/r.n.-spinning-mills-limited/stock-price?stockId=179>
+{'industry': u'Textile',
+ 'name': u'R.N. Spinning Mills Limited',
+ 'stockID': u'179',
+ 'ticker': u'RNSPIN'}
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/CITYGENINS/city-general-insurance-company-limited/stock-price?stockId=193> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/RSRMSTEEL/ratanpur-steel-re-rolling-mills-limited/stock-price?stockId=620> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/CITYGENINS/city-general-insurance-company-limited/stock-price?stockId=193>
+{'industry': u'Insurance',
+ 'name': u'City General Insurance Company Limited',
+ 'stockID': u'193',
+ 'ticker': u'CITYGENINS'}
+2017-03-16 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/RSRMSTEEL/ratanpur-steel-re-rolling-mills-limited/stock-price?stockId=620>
+{'industry': u'Engineering',
+ 'name': u'Ratanpur Steel Re-Rolling Mills Limited',
+ 'stockID': u'620',
+ 'ticker': u'RSRMSTEEL'}
+2017-03-16 23:27:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/AFTABAUTO/aftab-automobiles-limited/stock-price?stockId=42> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/RDFOOD/rangpur-dairy-&-food-products-limited/stock-price?stockId=274> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/ICBIBANK/icb-islamic-bank-limited/stock-price?stockId=22> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/AFTABAUTO/aftab-automobiles-limited/stock-price?stockId=42>
+{'industry': u'Engineering',
+ 'name': u'Aftab Automobiles Limited',
+ 'stockID': u'42',
+ 'ticker': u'AFTABAUTO'}
+2017-03-16 23:27:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/OAL/olympic-accessories-limited/stock-price?stockId=634> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/RDFOOD/rangpur-dairy-&-food-products-limited/stock-price?stockId=274>
+{'industry': u'Food & Allied',
+ 'name': u'Rangpur Dairy & Food Products Limited',
+ 'stockID': u'274',
+ 'ticker': u'RDFOOD'}
+2017-03-16 23:27:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/ICBIBANK/icb-islamic-bank-limited/stock-price?stockId=22>
+{'industry': u'Bank',
+ 'name': u'ICB Islamic Bank Limited',
+ 'stockID': u'22',
+ 'ticker': u'ICBIBANK'}
+2017-03-16 23:27:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/OAL/olympic-accessories-limited/stock-price?stockId=634>
+{'industry': u'Engineering',
+ 'name': u'Olympic Accessories Limited',
+ 'stockID': u'634',
+ 'ticker': u'OAL'}
+2017-03-16 23:27:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/ACTIVEFINE/active-fine-chemicals-limited/stock-price?stockId=133> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/SEBL1STMF/southeast-bank-1st-mutual-fund/stock-price?stockId=269> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=13)
+2017-03-16 23:27:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/ACTIVEFINE/active-fine-chemicals-limited/stock-price?stockId=133>
+{'industry': u'Pharmaceuticals & Chemicals',
+ 'name': u'Active Fine Chemicals Limited',
+ 'stockID': u'133',
+ 'ticker': u'ACTIVEFINE'}
+2017-03-16 23:27:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/SEBL1STMF/southeast-bank-1st-mutual-fund/stock-price?stockId=269>
+{'industry': u'Mutual Funds',
+ 'name': u'Southeast Bank 1st Mutual Fund',
+ 'stockID': u'269',
+ 'ticker': u'SEBL1STMF'}
+2017-03-16 23:27:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/STANDARINS/standard-insurance-limited/stock-price?stockId=229> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/GLOBALINS/global-insurance-ltd./stock-price?stockId=201> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/STANDARINS/standard-insurance-limited/stock-price?stockId=229>
+{'industry': u'Insurance',
+ 'name': u'Standard Insurance Limited',
+ 'stockID': u'229',
+ 'ticker': u'STANDARINS'}
+2017-03-16 23:27:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/GLOBALINS/global-insurance-ltd./stock-price?stockId=201>
+{'industry': u'Insurance',
+ 'name': u'Global Insurance Ltd.',
+ 'stockID': u'201',
+ 'ticker': u'GLOBALINS'}
+2017-03-16 23:27:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lankabd.com/dse/stock-market/SHYAMPSUG/shyampur-sugar-mills-limited/stock-price?stockId=99> (referer: http://lankabd.com/analysis-tools/companies-statistics?siteLanguage=en&d-3724563-p=3)
+2017-03-16 23:27:04 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lankabd.com/dse/stock-market/SHYAMPSUG/shyampur-sugar-mills-limited/stock-price?stockId=99>
+{'industry': u'Food & Allied',
+ 'name': u'Shyampur Sugar Mills Limited',
+ 'stockID': u'99',
+ 'ticker': u'SHYAMPSUG'}
+2017-03-16 23:27:04 [scrapy.extensions.feedexport] INFO: Stored csv feed (31 items) in: 20170316-232649_csv.csv
+2017-03-16 23:27:04 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 21207,
+ 'downloader/request_count': 49,
+ 'downloader/request_method_count/GET': 49,
+ 'downloader/response_bytes': 816550,
+ 'downloader/response_count': 49,
+ 'downloader/response_status_count/200': 49,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 3, 16, 17, 27, 4, 544043),
+ 'item_scraped_count': 31,
+ 'log_count/DEBUG': 81,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 49,
+ 'scheduler/dequeued': 48,
+ 'scheduler/dequeued/memory': 48,
+ 'scheduler/enqueued': 350,
+ 'scheduler/enqueued/memory': 350,
+ 'start_time': datetime.datetime(2017, 3, 16, 17, 26, 52, 65894)}
+2017-03-16 23:27:04 [scrapy.core.engine] INFO: Spider closed (shutdown)
