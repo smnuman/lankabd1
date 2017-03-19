@@ -15,7 +15,7 @@ class Lankabd1Item(scrapy.Item):
     link = scrapy.Field()
     stockID = scrapy.Field()
     industry = scrapy.Field()
-
-    # http://stackoverflow.com/a/20602179/2378780
-    def keys(self):
-        return ['industry', 'stockID', 'ticker', 'name'] # , 'link']
+    #
+    # # http://stackoverflow.com/a/20602179/2378780
+    # def keys(self):
+    #     return ['industry', 'stockID', 'ticker', 'name'] # , 'link']
