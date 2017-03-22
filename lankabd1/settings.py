@@ -14,7 +14,7 @@ BOT_NAME = 'lankabd1'
 SPIDER_MODULES = ['lankabd1.spiders']
 NEWSPIDER_MODULE = 'lankabd1.spiders'
 
-FEED_EXPORT_FIELDS = ['industry', 'stockID', 'ticker', 'name', 'link']
+FEED_EXPORT_FIELDS = ['industry', 'stockID', 'ticker', 'yearEnd', 'name', 'url']
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'lankabd1 (+http://www.yourdomain.com)'
